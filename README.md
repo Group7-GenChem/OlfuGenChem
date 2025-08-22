@@ -1,2 +1,0 @@
-# OlfuGenChem
-Atomic Theory Project
