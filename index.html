@@ -8,7 +8,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  
   <header>
     <div class="logo">General Chemistry</div>
     <button id="menu-toggle">☰</button>
@@ -21,43 +20,45 @@
     </nav>
   </header>
 
-  
   <section class="hero">
     <div class="overlay"></div>
     <h1>The Evolution of the Atomic Model</h1>
     <p>From ancient philosophy to modern quantum mechanics — discover how our understanding of the atom has evolved.</p>
   </section>
 
-  
   <main>
     
     <div class="card" id="atom">
       <h2>What is an Atom?</h2>
-      <p>The basic building block of matter.</p>
-      <div class="sub-card">
-        <h3>Structure</h3>
+      <ul>
+        <li>The basic building block of matter.</li>
+        <li>Consists of three subatomic particles:</li>
         <ul>
           <li><strong>Protons (+):</strong> positively charged, inside the nucleus.</li>
           <li><strong>Neutrons (0):</strong> neutral, inside the nucleus.</li>
           <li><strong>Electrons (−):</strong> negatively charged, orbiting around the nucleus.</li>
         </ul>
-        <p><em>Atom’s size:</em> about 0.1 nanometer (1 × 10⁻¹⁰ m).</p>
-      </div>
+      </ul>
+      <p><em>Atom’s size:</em> about 0.1 nanometer (1 × 10⁻¹⁰ m).</p>
     </div>
 
-    
+    <!-- History & Models -->
     <div class="card" id="history">
       <h2>History & Models of the Atom</h2>
 
       <div class="sub-card">
         <h3>Democritus (400 BC)</h3>
-        <p>Proposed that matter is made of tiny indivisible particles called <em>atomos</em>. He had no scientific proof — it was only a philosophical idea.</p>
-        <p><strong>Contribution:</strong> Introduced the concept of atoms.</p>
+        <ul>
+          <li>Proposed that matter is made of tiny indivisible particles called “atomos.”</li>
+          <li>No scientific proof, only a philosophical idea.</li>
+          <li>Introduced the concept of atoms.</li>
+        </ul>
       </div>
 
       <div class="sub-card">
         <h3>John Dalton (1803) – Dalton’s Atomic Theory</h3>
-        <p>Considered the "Father of Modern Atomic Theory." He proposed that:</p>
+        <p><strong>Father of Modern Atomic Theory</strong></p>
+        <p><strong>Theory:</strong></p>
         <ul>
           <li>All matter is made of atoms.</li>
           <li>Atoms of the same element are identical.</li>
@@ -70,95 +71,124 @@
 
       <div class="sub-card">
         <h3>J.J. Thomson (1897) – Plum Pudding Model</h3>
-        <p>Discovered the <strong>electron</strong> using the cathode ray experiment. He proposed that the atom is a positively charged sphere with negative electrons scattered inside (like raisins in pudding).</p>
-        <p><strong>Contribution:</strong> First model to include subatomic particles.</p>
+        <ul>
+          <li>Discovered the electron using the cathode ray experiment.</li>
+          <li>Atom is a positive sphere with negative electrons scattered inside (like raisins in pudding).</li>
+          <li>First model to include subatomic particles.</li>
+        </ul>
       </div>
 
       <div class="sub-card">
         <h3>Ernest Rutherford (1911) – Nuclear Model</h3>
-        <p>Famous for the <strong>Gold Foil Experiment</strong>: he shot alpha particles at thin gold foil and observed that most passed through, but some bounced back.</p>
+        <p><strong>Gold Foil Experiment:</strong></p>
         <ul>
-          <li>The atom has a dense, positively charged nucleus.</li>
-          <li>Electrons orbit around the nucleus.</li>
-          <li>The atom is mostly empty space.</li>
+          <li>Most particles passed through, some bounced back.</li>
+          <li>Concluded that the atom is mostly empty space with a dense, positively charged nucleus.</li>
         </ul>
-        <p><strong>Model:</strong> Nuclear Model of the Atom.</p>
       </div>
 
       <div class="sub-card">
         <h3>Niels Bohr (1913) – Planetary Model</h3>
-        <p>Improved Rutherford’s model by introducing the idea of <strong>energy levels (shells)</strong>.</p>
         <ul>
-          <li>Electrons orbit the nucleus in fixed energy levels.</li>
-          <li>Electrons can jump to higher shells if they gain energy, and drop back when they release energy.</li>
+          <li>Improved Rutherford’s model.</li>
+          <li>Electrons orbit the nucleus in fixed energy levels (shells).</li>
+          <li>Electrons can jump shells when they gain or release energy.</li>
+          <li>Explained the line spectra of hydrogen.</li>
         </ul>
-        <p><strong>Contribution:</strong> Explained the line spectra of hydrogen.</p>
       </div>
 
       <div class="sub-card">
         <h3>Erwin Schrödinger (1926) – Quantum Mechanical Model</h3>
-        <p>Used mathematics and wave equations to describe electrons.</p>
         <ul>
-          <li>Electrons are not in fixed orbits, but in <strong>orbitals</strong> (probability regions).</li>
-          <li>Introduced the <strong>Electron Cloud Model</strong> — electrons move in regions around the nucleus, not perfect circles.</li>
+          <li>Used wave equations to describe electron behavior.</li>
+          <li>Electrons are not in fixed orbits, but in orbitals (probability regions).</li>
+          <li><strong>Electron Cloud Model:</strong> electrons move in regions, not perfect circles.</li>
         </ul>
       </div>
 
       <div class="sub-card">
         <h3>James Chadwick (1932) – Discovery of the Neutron</h3>
-        <p>Proved the existence of <strong>neutrons</strong> in the nucleus, explaining the extra mass of atoms.</p>
-        <p><strong>Contribution:</strong> Completed the modern atomic model.</p>
+        <ul>
+          <li>Proved the existence of neutrons in the nucleus.</li>
+          <li>Neutrons explained the extra mass of atoms.</li>
+          <li>Completed the modern atomic model.</li>
+        </ul>
       </div>
     </div>
 
-<div class="card" id="timeline">
-  <h2>Timeline of Atomic Models</h2>
+    <!-- Timeline -->
+    <div class="card" id="timeline">
+      <h2>Timeline of Atomic Models</h2>
 
-  <div class="sub-card">
-    <h3>400 BC — Democritus</h3>
-    <p>Proposed Atomos (indivisible particles).</p>
-  </div>
+      <div class="sub-card">
+        <h3>400 BC – Democritus → Atomos</h3>
+        <ul>
+          <li>All matter is made of tiny, indivisible particles called atomos (“uncuttable” in Greek).</li>
+          <li>Atoms are eternal, solid, and different in shape and size, moving in a void.</li>
+          <li>No experiments, purely philosophical.</li>
+        </ul>
+      </div>
 
-  <div class="sub-card">
-    <h3>1803 — John Dalton</h3>
-    <p>Billiard Ball Model.</p>
-  </div>
+      <div class="sub-card">
+        <h3>1803 – John Dalton → Billiard Ball Model</h3>
+        <p>First scientific atomic theory. Atom = solid, indivisible sphere.</p>
+      </div>
 
-  <div class="sub-card">
-    <h3>1897 — J.J. Thomson</h3>
-    <p>Plum Pudding Model (discovered electron).</p>
-  </div>
+      <div class="sub-card">
+        <h3>1897 – J.J. Thomson → Plum Pudding Model</h3>
+        <ul>
+          <li>Discovered the electron (cathode ray experiment).</li>
+          <li>Atom = sphere of positive charge with electrons scattered inside.</li>
+          <li>Proved atoms are divisible, unlike Dalton’s idea.</li>
+        </ul>
+      </div>
 
-  <div class="sub-card">
-    <h3>1911 — Ernest Rutherford</h3>
-    <p>Nuclear Model (discovered nucleus).</p>
-  </div>
+      <div class="sub-card">
+        <h3>1911 – Ernest Rutherford → Nuclear Model</h3>
+        <ul>
+          <li>Gold Foil Experiment → most particles passed, some deflected.</li>
+          <li>Atoms are mostly empty space.</li>
+          <li>Dense, positively charged nucleus at the center.</li>
+        </ul>
+      </div>
 
-  <div class="sub-card">
-    <h3>1913 — Niels Bohr</h3>
-    <p>Planetary Model (energy levels).</p>
-  </div>
+      <div class="sub-card">
+        <h3>1913 – Niels Bohr → Planetary Model</h3>
+        <ul>
+          <li>Electrons orbit the nucleus in fixed, stable orbits (“stationary states”).</li>
+          <li>Electrons absorb energy to jump higher, emit photons when returning.</li>
+          <li>Laid foundation for quantum theory.</li>
+        </ul>
+      </div>
 
-  <div class="sub-card">
-    <h3>1926 — Erwin Schrödinger</h3>
-    <p>Quantum Mechanical Model (electron clouds).</p>
-  </div>
+      <div class="sub-card">
+        <h3>1926 – Erwin Schrödinger → Quantum Mechanical Model</h3>
+        <ul>
+          <li>Developed wave equation to explain electron behavior.</li>
+          <li>Electrons exist in probabilistic regions (orbitals).</li>
+          <li>Wave functions give probability of electron location.</li>
+        </ul>
+      </div>
 
-  <div class="sub-card">
-    <h3>1932 — James Chadwick</h3>
-    <p>Discovered neutron.</p>
-  </div>
-</div>
-
-
-    <div class="card" id="facts">
-      <h2>Interesting Facts</h2>
-      <div class="sub-card"><p>If an atom were the size of a football stadium, the nucleus would be like a marble in the center.</p></div>
-      <div class="sub-card"><p>99.9% of an atom’s mass is in the nucleus.</p></div>
-      <div class="sub-card"><p>Electrons move so fast they form an "electron cloud," giving atoms their apparent shape.</p></div>
+      <div class="sub-card">
+        <h3>1932 – James Chadwick → Discovery of the Neutron</h3>
+        <ul>
+          <li>Observed radiation from beryllium bombarded with alpha particles.</li>
+          <li>Proposed new neutral particle → neutron.</li>
+          <li>Neutrons completed the atomic model.</li>
+        </ul>
+      </div>
     </div>
 
-    
+    <!-- Facts -->
+    <div class="card" id="facts">
+      <h2>Interesting Facts</h2>
+      <div class="sub-card"><p>Atom’s nucleus is extremely dense: if an atom were the size of a football stadium, the nucleus would be like a marble in the center.</p></div>
+      <div class="sub-card"><p>About 99.9% of the atom’s mass is in the nucleus.</p></div>
+      <div class="sub-card"><p>Electrons move so fast that they form an “electron cloud.”</p></div>
+    </div>
+
+    <!-- References -->
     <div class="card" id="references">
       <h2>References</h2>
       <div class="sub-card">
@@ -170,29 +200,12 @@
     </div>
   </main>
 
-  
   <button id="back-to-top">↑</button>
 
-  
   <footer>
     <p>Atomic Theory Project | Created by Group 7</p>
   </footer>
 
-  
-  <script>
-    const backToTop = document.getElementById("back-to-top");
-    window.addEventListener("scroll", () => {
-      backToTop.style.display = window.scrollY > 200 ? "block" : "none";
-    });
-    backToTop.addEventListener("click", () => {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    });
-
-    const menuToggle = document.getElementById("menu-toggle");
-    const nav = document.querySelector("header nav");
-    menuToggle.addEventListener("click", () => {
-      nav.classList.toggle("active");
-    });
-  </script>
+  <script src="script.js"></script>
 </body>
-        </html>
+  </html>
